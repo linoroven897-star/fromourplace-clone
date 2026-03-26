@@ -3,339 +3,277 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Your Brand - Premium Cookware & Bakeware. Multi-functional, non-toxic, and beautiful enough to go from stove to table.">
-  <title>Your Brand - Cookware & Bakeware</title>
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍳</text></svg>">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Splide.js CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-
-  <!-- Custom CSS -->
+  <title>Your Brand - Premium Ovens & Baking</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="bg-bone-50 text-primary font-calibre antialiased">
+<body>
 
-  <!-- ===== PROMO BAR (MARQUEE) ===== -->
-  <div class="marquee-wrapper">
-    <div class="marquee-content marquee-animate">
-      <span class="marquee-item">100-day trial</span>
-      <span class="marquee-item">•</span>
-      <span class="marquee-item">Up to 40% off</span>
-      <span class="marquee-item">•</span>
-      <span class="marquee-item">Free shipping over $135</span>
-      <span class="marquee-item">•</span>
-      <span class="marquee-item">100-day trial</span>
-      <span class="marquee-item">•</span>
-      <span class="marquee-item">Up to 40% off</span>
-      <span class="marquee-item">•</span>
-      <span class="marquee-item">Free shipping over $135</span>
-      <span class="marquee-item">•</span>
-      <span class="marquee-item">100-day trial</span>
-      <span class="marquee-item">•</span>
-      <span class="marquee-item">Up to 40% off</span>
-      <span class="marquee-item">•</span>
-      <span class="marquee-item">Free shipping over $135</span>
-      <span class="marquee-item">•</span>
+  <!-- PROMO BAR -->
+  <div class="promo-bar">
+    <div class="promo-track">
+      <span class="promo-item">100-day trial</span>
+      <span class="promo-item">•</span>
+      <span class="promo-item">Up to 40% off</span>
+      <span class="promo-item">•</span>
+      <span class="promo-item">Free shipping over $135</span>
+      <span class="promo-item">•</span>
+      <span class="promo-item">100-day trial</span>
+      <span class="promo-item">•</span>
+      <span class="promo-item">Up to 40% off</span>
+      <span class="promo-item">•</span>
+      <span class="promo-item">Free shipping over $135</span>
+      <span class="promo-item">•</span>
+      <span class="promo-item">100-day trial</span>
+      <span class="promo-item">•</span>
+      <span class="promo-item">Up to 40% off</span>
+      <span class="promo-item">•</span>
+      <span class="promo-item">Free shipping over $135</span>
     </div>
   </div>
 
-  <!-- ===== NAVIGATION ===== -->
+  <!-- NAVBAR -->
   <nav class="navbar">
     <div class="container">
       <div class="navbar-inner">
-        <!-- Left nav (desktop) -->
-        <div class="navbar-nav-desktop hidden md:flex items-center gap-8">
+        <div class="navbar-nav">
           <a href="#products" class="nav-link">Shop</a>
           <a href="#about" class="nav-link">About</a>
           <a href="#recipes" class="nav-link">Recipes</a>
         </div>
-
-        <!-- Logo (centered) -->
-        <a href="#" class="navbar-brand absolute left-1/2 transform -translate-x-1/2">YOUR BRAND</a>
-
-        <!-- Right actions -->
+        <a href="#" class="navbar-brand">YOUR BRAND</a>
         <div class="navbar-actions">
-          <button class="nav-icon-btn" aria-label="Search">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z"/>
-            </svg>
+          <button class="nav-btn" aria-label="Search">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z"/></svg>
           </button>
-          <button class="nav-icon-btn" aria-label="Account">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
-            </svg>
+          <button class="nav-btn" aria-label="Account">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
           </button>
-          <button class="nav-icon-btn relative" aria-label="Cart">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
-            </svg>
-            <span class="cart-badge">2</span>
+          <button class="nav-btn cart-wrapper" aria-label="Cart">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+            <span class="cart-count">2</span>
           </button>
         </div>
       </div>
     </div>
   </nav>
 
-  <!-- ===== HERO BANNER ===== -->
+  <!-- HERO -->
   <section class="hero">
     <div class="container">
       <div class="hero-grid">
         <div class="fade-in">
-          <p class="text-xs uppercase tracking-widest mb-4 text-interactive-brick font-semibold">Spring Sale</p>
-          <h1 class="hero-title">Cookware that does it all</h1>
-          <p class="hero-subtitle">Multi-functional, non-toxic, and beautiful enough to go from stove to table.</p>
-          <div class="hero-actions">
+          <p class="hero-tag">Spring Sale</p>
+          <h1 class="hero-title">Ovens that do it all</h1>
+          <p class="hero-sub">Multi-functional, smart, and beautiful enough for any modern kitchen.</p>
+          <div class="hero-btns">
             <a href="#products" class="btn btn-primary">Shop Now</a>
             <a href="#about" class="btn btn-outline">Take the Quiz</a>
           </div>
         </div>
-        <div class="hero-image-wrapper">
-          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Premium cookware collection" class="w-full rounded-lg">
+        <div class="hero-img-wrap">
+          <img src="https://images.unsplash.com/photo-1585653757431-957a7acd9a7e?w=800&q=80" alt="Premium oven collection" class="hero-img">
           <div class="hero-badge">$268 Savings on Sets</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== PRODUCT CAROUSEL ===== -->
-  <section id="products" class="section bg-bone-50">
+  <!-- PRODUCTS -->
+  <section id="products" class="section">
     <div class="container">
       <div class="section-header">
         <div>
           <h2 class="section-title">Bestsellers</h2>
-          <p class="section-subtitle">Shop our community's top picks.</p>
+          <p class="section-sub">Shop our community's top picks.</p>
         </div>
-        <div class="carousel-nav-desktop flex gap-2">
-          <button class="carousel-nav-btn prev-btn" aria-label="Previous">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-            </svg>
+        <div class="carousel-nav">
+          <button class="carousel-btn" id="product-prev" aria-label="Previous">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
           </button>
-          <button class="carousel-nav-btn next-btn" aria-label="Next">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-            </svg>
+          <button class="carousel-btn" id="product-next" aria-label="Next">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
           </button>
         </div>
       </div>
 
-      <div class="splide" id="product-carousel">
-        <div class="splide__track">
-          <div class="splide__list gap-6">
+      <div class="carousel" id="product-carousel">
+        <div class="carousel-track" id="product-track">
 
-            <!-- PRODUCT 1 -->
-            <div class="splide__slide">
-              <div class="product-card">
-                <div class="product-card-image-wrapper">
-                  <div class="product-card-badges">
-                    <span class="badge badge-brick">$268 Savings</span>
-                  </div>
-                  <img src="https://images.unsplash.com/photo-1585442245259-8af2dbd4c1c0?w=600&q=80" alt="Always Pan Pro" class="product-card-main-image">
-                  <img src="https://images.unsplash.com/photo-1585653757431-957a7acd9a7e?w=600&q=80" alt="Always Pan Pro alternate view" class="product-card-hover-image">
-                  <div class="product-card-actions">
-                    <button class="product-card-action-btn">Quick Add</button>
-                  </div>
-                </div>
-                <div>
-                  <h3 class="product-card-title">Always Pan Pro</h3>
-                  <p class="product-card-desc">12" non-stick skillet</p>
-                  <div class="product-card-price-wrapper">
-                    <span class="product-card-price">$185</span>
-                    <span class="product-card-price-original">$245 Value</span>
-                  </div>
-                  <div class="swatch-group">
-                    <button class="swatch selected" style="background-color: #2D2926;" data-color="char" aria-label="Char"></button>
-                    <button class="swatch" style="background-color: #8B7355;" data-color="sage" aria-label="Sage"></button>
-                    <button class="swatch" style="background-color: #E8D5C4;" data-color="steam" aria-label="Steam"></button>
-                    <button class="swatch" style="background-color: #C4A98C;" data-color="spice" aria-label="Spice"></button>
-                  </div>
+          <div class="carousel-item">
+            <div class="product-card">
+              <div class="product-img-wrap">
+                <span class="product-badge">$268 Savings</span>
+                <img src="https://images.unsplash.com/photo-1585653757431-957a7acd9a7e?w=600&q=80" alt="Turbo Oven Pro" class="product-img">
+                <img src="https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=600&q=80" alt="Turbo Oven Pro" class="product-img product-img-hover">
+                <div class="product-actions">
+                  <button class="quick-add">Quick Add</button>
                 </div>
               </div>
-            </div>
-
-            <!-- PRODUCT 2 -->
-            <div class="splide__slide">
-              <div class="product-card">
-                <div class="product-card-image-wrapper">
-                  <div class="product-card-badges">
-                    <span class="badge badge-brick">$268 Savings</span>
-                  </div>
-                  <img src="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=600&q=80" alt="Perfect Pot" class="product-card-main-image">
-                  <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&q=80" alt="Perfect Pot alternate view" class="product-card-hover-image">
-                  <div class="product-card-actions">
-                    <button class="product-card-action-btn">Quick Add</button>
-                  </div>
-                </div>
-                <div>
-                  <h3 class="product-card-title">Perfect Pot</h3>
-                  <p class="product-card-desc">6-in-1 dutch oven</p>
-                  <div class="product-card-price-wrapper">
-                    <span class="product-card-price">$195</span>
-                    <span class="product-card-price-original">$265 Value</span>
-                  </div>
-                  <div class="swatch-group">
-                    <button class="swatch selected" style="background-color: #6B8E8E;" data-color="blue-salt" aria-label="Blue Salt"></button>
-                    <button class="swatch" style="background-color: #2D2926;" data-color="char" aria-label="Char"></button>
-                    <button class="swatch" style="background-color: #E8D5C4;" data-color="steam" aria-label="Steam"></button>
-                  </div>
-                </div>
+              <h3 class="product-title">Turbo Oven Pro</h3>
+              <p class="product-desc">Digital convection oven</p>
+              <div class="product-price-wrap">
+                <span class="product-price">$185</span>
+                <span class="product-price-old">$245 Value</span>
+              </div>
+              <div class="swatches">
+                <button class="swatch active" style="background:#2D2926" aria-label="Char"></button>
+                <button class="swatch" style="background:#8B7355" aria-label="Sage"></button>
+                <button class="swatch" style="background:#E8D5C4" aria-label="Steam"></button>
+                <button class="swatch" style="background:#C4A98C" aria-label="Spice"></button>
               </div>
             </div>
-
-            <!-- PRODUCT 3 -->
-            <div class="splide__slide">
-              <div class="product-card">
-                <div class="product-card-image-wrapper">
-                  <div class="product-card-badges">
-                    <span class="badge badge-brick">$268 Savings</span>
-                  </div>
-                  <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&q=80" alt="Mini Always Pan" class="product-card-main-image">
-                  <img src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=600&q=80" alt="Mini Always Pan alternate view" class="product-card-hover-image">
-                  <div class="product-card-actions">
-                    <button class="product-card-action-btn">Quick Add</button>
-                  </div>
-                </div>
-                <div>
-                  <h3 class="product-card-title">Mini Always Pan</h3>
-                  <p class="product-card-desc">8" compact skillet</p>
-                  <div class="product-card-price-wrapper">
-                    <span class="product-card-price">$95</span>
-                    <span class="product-card-price-original">$125 Value</span>
-                  </div>
-                  <div class="swatch-group">
-                    <button class="swatch selected" style="background-color: #E8C4A8;" data-color="butter-yellow" aria-label="Butter Yellow"></button>
-                    <button class="swatch" style="background-color: #2D2926;" data-color="char" aria-label="Char"></button>
-                    <button class="swatch" style="background-color: #8B7355;" data-color="sage" aria-label="Sage"></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- PRODUCT 4 -->
-            <div class="splide__slide">
-              <div class="product-card">
-                <div class="product-card-image-wrapper">
-                  <div class="product-card-badges">
-                    <span class="badge badge-brick">New</span>
-                  </div>
-                  <img src="https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=600&q=80" alt="Wonder Oven" class="product-card-main-image">
-                  <img src="https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=600&q=80" alt="Wonder Oven alternate view" class="product-card-hover-image">
-                  <div class="product-card-actions">
-                    <button class="product-card-action-btn">Quick Add</button>
-                  </div>
-                </div>
-                <div>
-                  <h3 class="product-card-title">Wonder Oven</h3>
-                  <p class="product-card-desc">Compact toaster oven</p>
-                  <div class="product-card-price-wrapper">
-                    <span class="product-card-price">$149</span>
-                    <span class="product-card-price-original">$199 Value</span>
-                  </div>
-                  <div class="swatch-group">
-                    <button class="swatch selected" style="background-color: #2D2926;" data-color="char" aria-label="Char"></button>
-                    <button class="swatch" style="background-color: #E8D5C4;" data-color="cream" aria-label="Cream"></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- PRODUCT 5 -->
-            <div class="splide__slide">
-              <div class="product-card">
-                <div class="product-card-image-wrapper">
-                  <div class="product-card-badges">
-                    <span class="badge badge-brick">$268 Savings</span>
-                  </div>
-                  <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Cookware Set" class="product-card-main-image">
-                  <img src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&q=80" alt="Cookware Set alternate view" class="product-card-hover-image">
-                  <div class="product-card-actions">
-                    <button class="product-card-action-btn">Quick Add</button>
-                  </div>
-                </div>
-                <div>
-                  <h3 class="product-card-title">Cookware Set</h3>
-                  <p class="product-card-desc">18 piece complete set</p>
-                  <div class="product-card-price-wrapper">
-                    <span class="product-card-price">$449</span>
-                    <span class="product-card-price-original">$717 Value</span>
-                  </div>
-                  <div class="swatch-group">
-                    <button class="swatch selected" style="background-color: #6B8E8E;" data-color="blue-salt" aria-label="Blue Salt"></button>
-                    <button class="swatch" style="background-color: #2D2926;" data-color="char" aria-label="Char"></button>
-                    <button class="swatch" style="background-color: #C4A98C;" data-color="spice" aria-label="Spice"></button>
-                    <button class="swatch" style="background-color: #8B7355;" data-color="sage" aria-label="Sage"></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- PRODUCT 6 -->
-            <div class="splide__slide">
-              <div class="product-card">
-                <div class="product-card-image-wrapper">
-                  <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Baking Sheet" class="product-card-main-image">
-                  <div class="product-card-actions">
-                    <button class="product-card-action-btn">Quick Add</button>
-                  </div>
-                </div>
-                <div>
-                  <h3 class="product-card-title">Baking Sheet</h3>
-                  <p class="product-card-desc">Aluminum non-stick</p>
-                  <div class="product-card-price-wrapper">
-                    <span class="product-card-price">$65</span>
-                  </div>
-                  <div class="swatch-group">
-                    <button class="swatch selected" style="background-color: #E8D5C4;" data-color="cream" aria-label="Cream"></button>
-                    <button class="swatch" style="background-color: #2D2926;" data-color="char" aria-label="Char"></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
+
+          <div class="carousel-item">
+            <div class="product-card">
+              <div class="product-img-wrap">
+                <span class="product-badge">$268 Savings</span>
+                <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&q=80" alt="Wall Oven Elite" class="product-img">
+                <img src="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=600&q=80" alt="Wall Oven Elite" class="product-img product-img-hover">
+                <div class="product-actions">
+                  <button class="quick-add">Quick Add</button>
+                </div>
+              </div>
+              <h3 class="product-title">Wall Oven Elite</h3>
+              <p class="product-desc">Built-in smart oven</p>
+              <div class="product-price-wrap">
+                <span class="product-price">$195</span>
+                <span class="product-price-old">$265 Value</span>
+              </div>
+              <div class="swatches">
+                <button class="swatch active" style="background:#6B8E8E" aria-label="Blue Salt"></button>
+                <button class="swatch" style="background:#2D2926" aria-label="Char"></button>
+                <button class="swatch" style="background:#E8D5C4" aria-label="Steam"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="product-card">
+              <div class="product-img-wrap">
+                <span class="product-badge">$268 Savings</span>
+                <img src="https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=600&q=80" alt="Mini Oven" class="product-img">
+                <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&q=80" alt="Mini Oven" class="product-img product-img-hover">
+                <div class="product-actions">
+                  <button class="quick-add">Quick Add</button>
+                </div>
+              </div>
+              <h3 class="product-title">Mini Counter Oven</h3>
+              <p class="product-desc">8" compact toaster oven</p>
+              <div class="product-price-wrap">
+                <span class="product-price">$95</span>
+                <span class="product-price-old">$125 Value</span>
+              </div>
+              <div class="swatches">
+                <button class="swatch active" style="background:#E8C4A8" aria-label="Butter Yellow"></button>
+                <button class="swatch" style="background:#2D2926" aria-label="Char"></button>
+                <button class="swatch" style="background:#8B7355" aria-label="Sage"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="product-card">
+              <div class="product-img-wrap">
+                <span class="product-badge">New</span>
+                <img src="https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=600&q=80" alt="Smart Convection Oven" class="product-img">
+                <img src="https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=600&q=80" alt="Smart Convection Oven" class="product-img product-img-hover">
+                <div class="product-actions">
+                  <button class="quick-add">Quick Add</button>
+                </div>
+              </div>
+              <h3 class="product-title">Smart Convection Oven</h3>
+              <p class="product-desc">12" digital convection</p>
+              <div class="product-price-wrap">
+                <span class="product-price">$149</span>
+                <span class="product-price-old">$199 Value</span>
+              </div>
+              <div class="swatches">
+                <button class="swatch active" style="background:#2D2926" aria-label="Char"></button>
+                <button class="swatch" style="background:#E8D5C4" aria-label="Cream"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="product-card">
+              <div class="product-img-wrap">
+                <span class="product-badge">$268 Savings</span>
+                <img src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=600&q=80" alt="Oven Set Pro" class="product-img">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Oven Set Pro" class="product-img product-img-hover">
+                <div class="product-actions">
+                  <button class="quick-add">Quick Add</button>
+                </div>
+              </div>
+              <h3 class="product-title">Oven Set Pro</h3>
+              <p class="product-desc">6-piece baking set</p>
+              <div class="product-price-wrap">
+                <span class="product-price">$449</span>
+                <span class="product-price-old">$717 Value</span>
+              </div>
+              <div class="swatches">
+                <button class="swatch active" style="background:#6B8E8E" aria-label="Blue Salt"></button>
+                <button class="swatch" style="background:#2D2926" aria-label="Char"></button>
+                <button class="swatch" style="background:#C4A98C" aria-label="Spice"></button>
+                <button class="swatch" style="background:#8B7355" aria-label="Sage"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="product-card">
+              <div class="product-img-wrap">
+                <img src="https://images.unsplash.com/photo-1585653757431-957a7acd9a7e?w=600&q=80" alt="Bakery Oven" class="product-img">
+                <div class="product-actions">
+                  <button class="quick-add">Quick Add</button>
+                </div>
+              </div>
+              <h3 class="product-title">Bakery Oven</h3>
+              <p class="product-desc">Professional baking oven</p>
+              <div class="product-price-wrap">
+                <span class="product-price">$65</span>
+              </div>
+              <div class="swatches">
+                <button class="swatch active" style="background:#E8D5C4" aria-label="Cream"></button>
+                <button class="swatch" style="background:#2D2926" aria-label="Char"></button>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== TWO-UP SHOWCASE ===== -->
-  <section id="about" class="section bg-background-secondary">
+  <!-- SHOWCASE -->
+  <section id="about" class="showcase">
     <div class="container">
       <div class="showcase-grid">
-        <!-- Card 1 -->
-        <div class="showcase-item">
-          <div class="showcase-image-wrapper">
-            <img src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80" alt="Spring Sale Collection" class="showcase-image">
+        <div class="showcase-card">
+          <div class="showcase-img-wrap">
+            <img src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80" alt="Spring Oven Sale" class="showcase-img">
           </div>
-          <h3 class="showcase-title">Spring Sale Bestsellers</h3>
-          <p class="showcase-desc">Shop our community's top picks while they're still in stock.</p>
+          <h3 class="showcase-title">Spring Oven Sale Bestsellers</h3>
+          <p class="showcase-desc">Shop our community's top oven picks while they're still in stock.</p>
           <a href="#products" class="btn btn-outline">Shop Now</a>
         </div>
-        <!-- Card 2 -->
-        <div class="showcase-item">
-          <div class="showcase-image-wrapper">
-            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="New Arrivals" class="showcase-image">
+        <div class="showcase-card">
+          <div class="showcase-img-wrap">
+            <img src="https://images.unsplash.com/photo-1585653757431-957a7acd9a7e?w=800&q=80" alt="New Oven Arrivals" class="showcase-img">
           </div>
-          <h3 class="showcase-title">New Arrivals</h3>
-          <p class="showcase-desc">Shop the latest and greatest for all things cooking and gathering.</p>
+          <h3 class="showcase-title">New Oven Arrivals</h3>
+          <p class="showcase-desc">Shop the latest and greatest ovens for all your baking needs.</p>
           <a href="#products" class="btn btn-outline">Shop Now</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== TESTIMONIAL CAROUSEL ===== -->
-  <section class="section testimonial-section">
+  <!-- TESTIMONIAL -->
+  <section class="testimonial">
     <div class="container">
-      <div class="mb-10">
-        <div class="testimonial-stars">
+      <div class="testimonial-header">
+        <div class="stars">
           <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
           <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
           <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
@@ -345,167 +283,116 @@
         <h2 class="section-title">Over 100,000 5-star reviews</h2>
       </div>
 
-      <div class="splide" id="testimonial-carousel">
-        <div class="splide__track">
-          <div class="splide__list">
-            <!-- Testimonial 1 -->
-            <div class="splide__slide">
-              <div class="testimonial-grid">
-                <div>
-                  <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&q=80" alt="Review by Chef" class="testimonial-image">
-                  <div class="flex gap-2 flex-wrap mb-4">
-                    <span class="badge badge-char">Always Pan</span>
-                    <span class="badge badge-char">Non-Stick</span>
-                  </div>
-                </div>
-                <div class="flex flex-col justify-center">
-                  <blockquote>
-                    <h4 class="testimonial-quote">"The surface is all clad with titanium, which is naturally non-stick. It's not precious. It's just durable."</h4>
-                  </blockquote>
-                  <p class="testimonial-author">— J. Kenji López-Alt</p>
-                </div>
-              </div>
-            </div>
-            <!-- Testimonial 2 -->
-            <div class="splide__slide">
-              <div class="testimonial-grid">
-                <div>
-                  <img src="https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=500&q=80" alt="Review by Home Cook" class="testimonial-image">
-                  <div class="flex gap-2 flex-wrap mb-4">
-                    <span class="badge badge-char">Mini Always Pan</span>
-                    <span class="badge badge-char">Compact</span>
-                  </div>
-                </div>
-                <div class="flex flex-col justify-center">
-                  <blockquote>
-                    <h4 class="testimonial-quote">"Not only is it beautiful and butter colored, but it is multifunctional, non-stick and non-toxic."</h4>
-                  </blockquote>
-                  <p class="testimonial-author">— Molly Baz</p>
-                </div>
-              </div>
-            </div>
-            <!-- Testimonial 3 -->
-            <div class="splide__slide">
-              <div class="testimonial-grid">
-                <div>
-                  <img src="https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=500&q=80" alt="Review by Professional Chef" class="testimonial-image">
-                  <div class="flex gap-2 flex-wrap mb-4">
-                    <span class="badge badge-char">Always Pan Pro</span>
-                    <span class="badge badge-char">Titanium</span>
-                  </div>
-                </div>
-                <div class="flex flex-col justify-center">
-                  <blockquote>
-                    <h4 class="testimonial-quote">"It's beautiful and indestructible. Your car is going to break down before this pan does."</h4>
-                  </blockquote>
-                  <p class="testimonial-author">— Mike Bagale, 3 Michelin Chef</p>
-                </div>
-              </div>
-            </div>
+      <div class="testi-grid" id="testi-grid">
+        <div class="testi-item fade-in">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&q=80" alt="Review" class="testi-img">
+          <div class="testi-tags">
+            <span class="testi-tag">Turbo Oven Pro</span>
+            <span class="testi-tag">Convection</span>
           </div>
+          <blockquote class="testi-quote">"The heat distribution is perfect. It's not precious. It's just durable and gets the job done every time."</blockquote>
+          <p class="testi-author">— J. Kenji López-Alt</p>
+        </div>
+        <div class="testi-item fade-in">
+          <img src="https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=500&q=80" alt="Review" class="testi-img">
+          <div class="testi-tags">
+            <span class="testi-tag">Smart Oven</span>
+            <span class="testi-tag">Digital</span>
+          </div>
+          <blockquote class="testi-quote">"Not only is it beautiful and sleek, but it is multifunctional, precise, and built to last."</blockquote>
+          <p class="testi-author">— Molly Baz</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== PRESS CAROUSEL ===== -->
-  <section class="press-section">
+  <!-- PRESS -->
+  <section class="press">
     <div class="container">
-      <div class="splide" id="press-carousel">
-        <div class="splide__track">
-          <div class="splide__list flex items-center justify-center gap-12 md:gap-20">
-            <div class="splide__slide press-item">
-              <span class="press-logo">Bon Appétit</span>
-            </div>
-            <div class="splide__slide press-item">
-              <span class="press-logo">Architectural Digest</span>
-            </div>
-            <div class="splide__slide press-item">
-              <span class="press-logo">Food Network</span>
-            </div>
-            <div class="splide__slide press-item">
-              <span class="press-logo">Vogue</span>
-            </div>
-            <div class="splide__slide press-item">
-              <span class="press-logo">Apartment Therapy</span>
-            </div>
-          </div>
-        </div>
+      <div class="press-track">
+        <span class="press-item">Bon Appétit</span>
+        <span class="press-item">Architectural Digest</span>
+        <span class="press-item">Food Network</span>
+        <span class="press-item">Vogue</span>
+        <span class="press-item">Apartment Therapy</span>
       </div>
     </div>
   </section>
 
-  <!-- ===== MARKETING LINKS CAROUSEL ===== -->
-  <section id="recipes" class="section bg-bone-50">
+  <!-- MARKETING -->
+  <section id="recipes" class="section">
     <div class="container">
       <h2 class="section-title mb-10">More to Explore</h2>
-      <div class="splide" id="marketing-carousel">
-        <div class="splide__track">
-          <div class="splide__list gap-6">
-            <div class="splide__slide">
-              <a href="#" class="marketing-card">
-                <div class="marketing-image-wrapper">
-                  <img src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=400&q=80" alt="Our Mission" class="marketing-image">
-                </div>
-                <h4 class="marketing-title">Our Mission</h4>
-              </a>
-            </div>
-            <div class="splide__slide">
-              <a href="#" class="marketing-card">
-                <div class="marketing-image-wrapper">
-                  <img src="https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=400&q=80" alt="Rewards Program" class="marketing-image">
-                </div>
-                <h4 class="marketing-title">Rewards Program</h4>
-              </a>
-            </div>
-            <div class="splide__slide">
-              <a href="#" class="marketing-card">
-                <div class="marketing-image-wrapper">
-                  <img src="https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?w=400&q=80" alt="Recipes" class="marketing-image">
-                </div>
-                <h4 class="marketing-title">Recipes</h4>
-              </a>
-            </div>
-            <div class="splide__slide">
-              <a href="#" class="marketing-card">
-                <div class="marketing-image-wrapper">
-                  <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80" alt="Retail Locations" class="marketing-image">
-                </div>
-                <h4 class="marketing-title">Retail Locations</h4>
-              </a>
-            </div>
-            <div class="splide__slide">
-              <a href="#" class="marketing-card">
-                <div class="marketing-image-wrapper">
-                  <img src="https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=400&q=80" alt="Give $20 Get $20" class="marketing-image">
-                </div>
-                <h4 class="marketing-title">Give $20, Get $20</h4>
-              </a>
-            </div>
+      <div class="carousel" id="marketing-carousel">
+        <div class="carousel-track" id="marketing-track">
+
+          <div class="carousel-item">
+            <a href="#" class="marketing-card">
+              <div class="marketing-img-wrap">
+                <img src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=400&q=80" alt="Our Mission" class="marketing-img" style="aspect-ratio:3/4;object-fit:cover;">
+              </div>
+              <h4 class="marketing-title">Our Mission</h4>
+            </a>
           </div>
+
+          <div class="carousel-item">
+            <a href="#" class="marketing-card">
+              <div class="marketing-img-wrap">
+                <img src="https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=400&q=80" alt="Rewards" class="marketing-img" style="aspect-ratio:3/4;object-fit:cover;">
+              </div>
+              <h4 class="marketing-title">Rewards Program</h4>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="#" class="marketing-card">
+              <div class="marketing-img-wrap">
+                <img src="https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?w=400&q=80" alt="Recipes" class="marketing-img">
+              </div>
+              <h4 class="marketing-title">Recipes</h4>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="#" class="marketing-card">
+              <div class="marketing-img-wrap">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80" alt="Stores" class="marketing-img">
+              </div>
+              <h4 class="marketing-title">Retail Locations</h4>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="#" class="marketing-card">
+              <div class="marketing-img-wrap">
+                <img src="https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=400&q=80" alt="Give $20" class="marketing-img">
+              </div>
+              <h4 class="marketing-title">Give $20, Get $20</h4>
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== NEWSLETTER ===== -->
+  <!-- NEWSLETTER -->
   <section class="newsletter">
     <div class="container">
       <h2 class="newsletter-title">Be the first to know</h2>
       <p class="newsletter-desc">Sign up for early access to new arrivals, exclusive offers, and more.</p>
-      <form class="newsletter-form">
+      <form class="newsletter-form" id="newsletter-form">
         <input type="email" placeholder="Enter your email" required class="newsletter-input">
-        <button type="submit" class="btn btn-brick">Subscribe</button>
+        <button type="submit" class="btn-brick">Subscribe</button>
       </form>
       <p class="newsletter-disclaimer">By signing up, you agree to our Terms & Privacy Policy.</p>
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
-        <!-- Column 1 -->
         <div>
           <h4 class="footer-title">Products</h4>
           <ul class="footer-links">
@@ -513,12 +400,10 @@
             <li><a href="#products" class="footer-link">Cookware</a></li>
             <li><a href="#products" class="footer-link">Bakeware</a></li>
             <li><a href="#products" class="footer-link">Tableware</a></li>
-            <li><a href="#products" class="footer-link">Kitchen Tools</a></li>
             <li><a href="#products" class="footer-link">Bundles</a></li>
             <li><a href="#" class="footer-link">Gift Cards</a></li>
           </ul>
         </div>
-        <!-- Column 2 -->
         <div>
           <h4 class="footer-title">Company</h4>
           <ul class="footer-links">
@@ -527,10 +412,8 @@
             <li><a href="#recipes" class="footer-link">Blog</a></li>
             <li><a href="#" class="footer-link">Careers</a></li>
             <li><a href="#" class="footer-link">Press</a></li>
-            <li><a href="#" class="footer-link">Affiliate Program</a></li>
           </ul>
         </div>
-        <!-- Column 3 -->
         <div>
           <h4 class="footer-title">Support</h4>
           <ul class="footer-links">
@@ -538,11 +421,9 @@
             <li><a href="#" class="footer-link">Contact Us</a></li>
             <li><a href="#" class="footer-link">Returns & Exchanges</a></li>
             <li><a href="#" class="footer-link">Warranty</a></li>
-            <li><a href="#" class="footer-link">Product Guides</a></li>
             <li><a href="#" class="footer-link">Financing</a></li>
           </ul>
         </div>
-        <!-- Column 4 -->
         <div>
           <h4 class="footer-title">Account</h4>
           <ul class="footer-links">
@@ -563,9 +444,8 @@
           </div>
         </div>
       </div>
-
       <div class="footer-bottom">
-        <p class="footer-copyright">&copy; 2026 Your Brand. All rights reserved.</p>
+        <p class="footer-copy">© 2026 Your Brand. All rights reserved.</p>
         <div class="footer-legal">
           <a href="#" class="footer-legal-link">Privacy Policy</a>
           <a href="#" class="footer-legal-link">Terms of Service</a>
@@ -575,13 +455,131 @@
     </div>
   </footer>
 
-  <!-- ===== SCRIPTS ===== -->
+  <script>
+    // ===== PRODUCT CAROUSEL =====
+    (function() {
+      const track = document.getElementById('product-track');
+      const prevBtn = document.getElementById('product-prev');
+      const nextBtn = document.getElementById('product-next');
+      if (!track) return;
 
-  <!-- Splide.js -->
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+      let current = 0;
+      let perView = 4;
 
-  <!-- Custom JavaScript -->
-  <script src="assets/js/main.js"></script>
+      function updatePerView() {
+        if (window.innerWidth < 640) perView = 1;
+        else if (window.innerWidth < 1024) perView = 2;
+        else if (window.innerWidth < 1280) perView = 3;
+        else perView = 4;
+      }
+
+      function getMaxIndex() {
+        const items = track.querySelectorAll('.carousel-item');
+        return Math.max(0, items.length - perView);
+      }
+
+      function moveTo(index) {
+        updatePerView();
+        const maxIndex = getMaxIndex();
+        if (index < 0) index = maxIndex;
+        if (index > maxIndex) index = 0;
+        current = index;
+        const items = track.querySelectorAll('.carousel-item');
+        if (items.length === 0) return;
+        const itemWidth = items[0].getBoundingClientRect().width + 24; // gap
+        track.style.transform = 'translateX(-' + (current * itemWidth) + 'px)';
+      }
+
+      prevBtn.addEventListener('click', function() { moveTo(current - 1); });
+      nextBtn.addEventListener('click', function() { moveTo(current + 1); });
+      window.addEventListener('resize', function() { moveTo(current); });
+      moveTo(0);
+
+      // Auto advance
+      setInterval(function() { moveTo(current + 1); }, 5000);
+    })();
+
+    // ===== MARKETING CAROUSEL =====
+    (function() {
+      const track = document.getElementById('marketing-track');
+      if (!track) return;
+
+      let current = 0;
+      let perView = 4;
+
+      function updatePerView() {
+        if (window.innerWidth < 640) perView = 1;
+        else if (window.innerWidth < 768) perView = 2;
+        else if (window.innerWidth < 1024) perView = 3;
+        else perView = 4;
+      }
+
+      function getMaxIndex() {
+        const items = track.querySelectorAll('.carousel-item');
+        return Math.max(0, items.length - perView);
+      }
+
+      function moveTo(index) {
+        updatePerView();
+        const maxIndex = getMaxIndex();
+        if (index < 0) index = maxIndex;
+        if (index > maxIndex) index = 0;
+        current = index;
+        const items = track.querySelectorAll('.carousel-item');
+        if (items.length === 0) return;
+        const itemWidth = items[0].getBoundingClientRect().width + 24;
+        track.style.transform = 'translateX(-' + (current * itemWidth) + 'px)';
+      }
+
+      // Add nav buttons to marketing carousel
+      const marketingCarousel = document.getElementById('marketing-carousel');
+      const navDiv = document.createElement('div');
+      navDiv.className = 'carousel-nav';
+      navDiv.style.marginTop = '1.5rem';
+      navDiv.innerHTML = '<button class="carousel-btn" id="mkt-prev"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg></button><button class="carousel-btn" id="mkt-next"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></button>';
+      marketingCarousel.parentNode.insertBefore(navDiv, marketingCarousel.nextSibling);
+
+      document.getElementById('mkt-prev').addEventListener('click', function() { moveTo(current - 1); });
+      document.getElementById('mkt-next').addEventListener('click', function() { moveTo(current + 1); });
+      window.addEventListener('resize', function() { moveTo(current); });
+      moveTo(0);
+    })();
+
+    // ===== SWATCH SELECTION =====
+    document.querySelectorAll('.swatch').forEach(function(swatch) {
+      swatch.addEventListener('click', function() {
+        const parent = this.closest('.product-card');
+        if (parent) {
+          parent.querySelectorAll('.swatch').forEach(function(s) { s.classList.remove('active'); });
+          this.classList.add('active');
+        }
+      });
+    });
+
+    // ===== SMOOTH SCROLL =====
+    document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // ===== NEWSLETTER FORM =====
+    var form = document.getElementById('newsletter-form');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var input = form.querySelector('input');
+        if (input && input.value) {
+          alert('Thanks for subscribing!');
+          input.value = '';
+        }
+      });
+    }
+  </script>
 
 </body>
 </html>
